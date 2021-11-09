@@ -18,8 +18,8 @@ for x in числа:
 print(произведение)
 
 # лекция 1 задание 2
-str='axxlkxsasad dxaxx poaxthxx'
-исходная_строка = str.replace("x", "y")
+исходная_строка=str('axxlkxsasad dxaxx poaxthxx')
+исходная_строка = исходная_строка.replace("x", "y")
 print(исходная_строка)
 
 
