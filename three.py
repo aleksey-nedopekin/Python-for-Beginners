@@ -77,10 +77,10 @@ print(x, "сумма=  ", summa)
 z = int(input('Введи число  '))
 x = np.array(range(z))
 summa = sum(x)
-print(x, "сумма=  ", summa)
+print("ряд", x, "сумма=  ", summa)
 
 # лекция 3 (видео 4) задание 3 (среднее среди 100 случайных]) 
 np.random
 x=np.random.randint(0, 10, 100)
 srednee = np.mean(x)
-print(x, "среднее=  ", srednee)
+print("ряд", x, "среднее=  ", srednee)
