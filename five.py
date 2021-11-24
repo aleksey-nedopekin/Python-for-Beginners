@@ -42,7 +42,8 @@ high()
 
 
 def compare(S1, S2):
-    ngrams = [S1[i+i:3] for i in range(len(S1))]
+    # S1, S2 = [s.lower() for s [S1, S2]]
+    ngrams = [S1[i:i+3] for i in range(len(S1))]
     count = 0
     for ngram in ngrams:
         count += S2.count(ngram)
@@ -54,5 +55,4 @@ S2 = group1[1][0]
 c = compare (S1, S2)
 
 print (c, S1, S2)
-
 
